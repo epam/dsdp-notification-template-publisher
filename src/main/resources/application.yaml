@@ -1,0 +1,9 @@
+app:
+  notifications-directory-name: notifications
+  channels-available: email, inbox, diia
+
+notification-service:
+  url: ${NOTIFICATION_SERVICE_URL}
+
+thirdPartySystems:
+  accessToken: ${ACCESS_TOKEN}
